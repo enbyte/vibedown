@@ -1,0 +1,16 @@
+{
+  "name": "markai",
+  "version": "1.0.0",
+  "description": "CommonMark 0.31.2 Markdown to HTML CLI with a self-contained parser implementation",
+  "main": "index.js",
+  "bin": {
+    "md2html": "./bin/md2html.js"
+  },
+  "scripts": {
+    "test": "node ./bin/md2html.js --help >/dev/null",
+    "verify:spec": "node ./scripts/verify-spec.js --mode both"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
