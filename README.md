@@ -43,7 +43,7 @@ Run the official CommonMark 0.31.2 examples from `spec.json` against both the pa
 node ./scripts/verify-spec.js --mode both
 ```
 
-Current baseline for this handwritten implementation: `586/652` examples pass for both core and CLI paths.
+Current baseline for this handwritten implementation: `652/652` examples pass for both core and CLI paths.
 
 The verifier fetches:
 
